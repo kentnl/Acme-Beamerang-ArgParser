@@ -1,0 +1,28 @@
+---
+abstract: 'A partial commandlet oriented args parser'
+author:
+  - 'Kent Fredric <kentnl@cpan.org>'
+build_requires:
+  Test::More: '0.88'
+configure_requires:
+  Module::Build::Tiny: '0.034'
+dynamic_config: 0
+generated_by: 'App::ModuleBuildTiny version 0.018, CPAN::Meta::Converter version 2.150010'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Acme-Beamerang-ArgParser
+provides:
+  Acme::Beamerang::ArgParser:
+    file: lib/Acme/Beamerang/ArgParser.pm
+    version: '0.001000'
+requires:
+  Acme::Beamerang::Logger: '0'
+  namespace::clean: '0'
+  perl: '5.006'
+resources:
+  bugtracker: https://github.com/kentnl/Acme-Beamerang-ArgParser/issues
+  repository: https://github.com/kentnl/Acme-Beamerang-ArgParser
+version: '0.001000'
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'

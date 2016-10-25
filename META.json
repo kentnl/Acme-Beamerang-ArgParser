@@ -1,0 +1,59 @@
+{
+   "abstract" : "A partial commandlet oriented args parser",
+   "author" : [
+      "Kent Fredric <kentnl@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "App::ModuleBuildTiny version 0.018",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Acme-Beamerang-ArgParser",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.034"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "App::ModuleBuildTiny" : "0.018"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Acme::Beamerang::Logger" : "0",
+            "namespace::clean" : "0",
+            "perl" : "5.006"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.88"
+         }
+      }
+   },
+   "provides" : {
+      "Acme::Beamerang::ArgParser" : {
+         "file" : "lib/Acme/Beamerang/ArgParser.pm",
+         "version" : "0.001000"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kentnl/Acme-Beamerang-ArgParser/issues"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/kentnl/Acme-Beamerang-ArgParser",
+         "web" : "https://github.com/kentnl/Acme-Beamerang-ArgParser"
+      }
+   },
+   "version" : "0.001000",
+   "x_serialization_backend" : "JSON::PP version 2.27400_01"
+}
