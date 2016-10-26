@@ -7,6 +7,7 @@ META.json
 META.yml
 README.pod
 examples/basic.pl
+examples/multifacet.pl
 lib/Acme/Beamerang/ArgParser.pm
 metamerge.json
 t/examples/basic.t
