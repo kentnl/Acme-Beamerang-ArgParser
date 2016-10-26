@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 
-use Test::More;
+use Test::More tests => 4;
 use Acme::Beamerang::ArgParser;
 
 is_deeply(
@@ -34,6 +34,3 @@ is_deeply(
     [ '--unary', '--arged=foo', 'command', '--command', 'args' ],
     "Ignored post-command arg that matches"
 );
-
-done_testing;
-

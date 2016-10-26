@@ -3,7 +3,7 @@ abstract: 'A partial commandlet oriented args parser'
 author:
   - 'Kent Fredric <kentnl@cpan.org>'
 build_requires:
-  Test::More: '0.88'
+  Test::More: '0.80'
 configure_requires:
   Module::Build::Tiny: '0.034'
 dynamic_config: 0
