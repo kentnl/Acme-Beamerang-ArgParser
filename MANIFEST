@@ -6,6 +6,7 @@ MANIFEST.SKIP
 META.json
 META.yml
 README.pod
+examples/basic.pl
 lib/Acme/Beamerang/ArgParser.pm
 metamerge.json
 t/extra_args.t
