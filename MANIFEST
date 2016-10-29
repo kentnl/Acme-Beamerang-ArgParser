@@ -11,5 +11,6 @@ examples/multifacet.pl
 lib/Acme/Beamerang/ArgParser.pm
 metamerge.json
 t/examples/basic.t
+t/examples/multifacet.t
 t/extra_args.t
 t/wanted_args.t
