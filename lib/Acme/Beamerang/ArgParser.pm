@@ -4,7 +4,7 @@ use warnings;
 
 package Acme::Beamerang::ArgParser;
 
-our $VERSION = '0.001000';
+our $VERSION = '0.001001';
 
 use Acme::Beamerang::Logger;
 use namespace::clean;
