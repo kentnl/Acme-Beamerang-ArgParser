@@ -9,5 +9,6 @@ README.pod
 examples/basic.pl
 lib/Acme/Beamerang/ArgParser.pm
 metamerge.json
+t/examples/basic.t
 t/extra_args.t
 t/wanted_args.t

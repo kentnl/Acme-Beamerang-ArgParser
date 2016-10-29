@@ -32,8 +32,13 @@
          }
       },
       "test" : {
+         "recommends" : {
+            "Capture::Tiny" : "0",
+            "Path::Tiny" : "0.014"
+         },
          "requires" : {
-            "Test::More" : "0.80"
+            "Test::More" : "0.80",
+            "Test::Needs" : "0"
          }
       }
    },
