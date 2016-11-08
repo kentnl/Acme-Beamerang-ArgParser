@@ -1,4 +1,5 @@
-0.001001 -
- -
+0.001001 - 2016-11-08
+ - Avoid test's Compound expression dropping strict in mid-deref, as this is only supported on 5.22+
+
 0.001000 - 2016-10-29
  - Initial Release

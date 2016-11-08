@@ -11,7 +11,10 @@ use Path::Tiny qw/ path /;
 use Capture::Tiny qw/ capture /;
 use Acme::Beamerang::ArgParser;
 
-sub defconst { ${ no strict; *{ __PACKAGE__ . '::' } }{ $_[0] } = \"$_[1]" }
+sub defconst {
+    no strict;
+    ${ *{ __PACKAGE__ . '::' } }{ $_[0] } = \"$_[1]";
+}
 
 BEGIN {
     defconst SCRIPT => path(__FILE__)->parent(3)->child('examples/basic.pl')
