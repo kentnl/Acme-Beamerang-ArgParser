@@ -17,7 +17,7 @@ name: Acme-Beamerang-ArgParser
 provides:
   Acme::Beamerang::ArgParser:
     file: lib/Acme/Beamerang/ArgParser.pm
-    version: '0.001001'
+    version: '0.001002'
 requires:
   Acme::Beamerang::Logger: '0'
   namespace::clean: '0'
@@ -25,5 +25,5 @@ requires:
 resources:
   bugtracker: https://github.com/kentnl/Acme-Beamerang-ArgParser/issues
   repository: https://github.com/kentnl/Acme-Beamerang-ArgParser
-version: '0.001001'
+version: '0.001002'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'

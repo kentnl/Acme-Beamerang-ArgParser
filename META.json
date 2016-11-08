@@ -45,7 +45,7 @@
    "provides" : {
       "Acme::Beamerang::ArgParser" : {
          "file" : "lib/Acme/Beamerang/ArgParser.pm",
-         "version" : "0.001001"
+         "version" : "0.001002"
       }
    },
    "release_status" : "stable",
@@ -59,6 +59,6 @@
          "web" : "https://github.com/kentnl/Acme-Beamerang-ArgParser"
       }
    },
-   "version" : "0.001001",
+   "version" : "0.001002",
    "x_serialization_backend" : "JSON::PP version 2.27400_01"
 }
